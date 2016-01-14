@@ -9,8 +9,8 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class MyPagerAdapter extends FragmentPagerAdapter {
 
-    private final String[] TITLES = { "Topnews", "Home", "Top Paid", "Top Free", "Top Grossing", "Top New Paid",
-            "Top New Free", "Trending" };
+    private final String[] TITLES = { "头条", "娱乐", "热点", "广州", "体育", "订阅",
+            "财经", "科技" };
 
     public MyPagerAdapter(FragmentManager fm) {
         super(fm);
